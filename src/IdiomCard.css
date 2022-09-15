@@ -1,0 +1,53 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card > div{
+  display: flex;
+}
+
+.card span {
+  display: inline-block;
+  width: 64px;
+  margin: 6px 10px;
+  text-align: center;
+}
+
+.pinyin span{
+  color: lightgray;
+  font-weight: bold;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+
+.pinyin span > div{
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.pinyin span div:hover{
+  color: lightcoral !important;
+}
+
+.pinyin span div:first-child{
+  text-align: right;
+}
+
+.pinyin span div:last-child{
+  text-align: left;
+}
+
+.hanzi span{
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 64px;
+  line-height: 64px;
+  margin-top: 4px;
+  font-size: 24px;
+}
