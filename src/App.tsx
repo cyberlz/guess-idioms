@@ -3,6 +3,7 @@ import './App.css'
 import IdiomCard from './IdiomCard'
 import NshJson from './nsh.json'
 import { request } from './request'
+import IdiomJson from './idioms.json'
 
 export const ConfigContext = createContext('conf')
 
@@ -143,38 +144,65 @@ function App() {
               <div className="tip">
                 <div>提示：</div>
                 <div>
-                  1. 点击拼音对声母/韵母进行颜色标记。 颜色[
-                  <b style={{ color: 'green' }}>绿</b>/
-                  <b style={{ color: 'orange' }}>橙</b>/
-                  <b style={{ color: 'lightgray' }}>灰</b>]顺序切换
+                  1.使用方法
+                  <ul>
+                    <li>输入成语回车</li>
+                    <li>
+                      对声母/韵母进行颜色标记( 颜色按[
+                      <b style={{ color: 'green' }}>绿</b>/
+                      <b style={{ color: 'orange' }}>橙</b>/
+                      <b style={{ color: 'lightgray' }}>灰</b>]顺序切换)
+                    </li>
+                    <li>点击查询结果</li>
+                    <li>支持多个成语累计查询</li>
+                    <li>
+                      <span>推荐词量: {NshJson.data.length}个</span>
+                      {'   '}
+                      <span>默认词量: {IdiomJson.data.length}个</span>
+                    </li>
+                  </ul>
                 </div>
-                <div>2.版本: V0.1.0</div>
                 <div>
-                  3. 该Demo版本可能存在部分问题,有问题请提
+                  2. 可能存在部分问题,欢迎提
                   <a href="https://github.com/CatNulls/guess-idioms/issues">
                     issues
                   </a>
                 </div>
                 <div>
-                  4. 方法灵感来自
+                  3. 灵感来自 [{' '}
                   <a
                     href="https://github.com/0xVanfer/idioms-nsh"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    雷霆觉醒-可达鸭不发呆
-                  </a>
-                </div>
-                <div>
-                  5. 由
+                    可达鸭不发呆(雷霆)
+                  </a>{' '}
+                  ] ,由 [{' '}
                   <a
                     href="https://github.com/CatNulls/guess-idioms"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    雷动九天-止戈为武
+                    止戈为武(雷动)
+                  </a>{' '}
+                  ] 完善
+                </div>
+                <div>
+                  4.{' '}
+                  <a
+                    href="https://docs.qq.com/sheet/DU2dPUHNyVExkQW5X?tab=BB08J2&scode="
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    游戏玩家统计
                   </a>
-                  完善
+                </div>
+                <div>
+                  5. 版本: V0.1.2(2022/09/15)
+                  <ul>
+                    <li>更新成语库</li>
+                    <li>移动端适配</li>
+                  </ul>
                 </div>
               </div>
             </div>
