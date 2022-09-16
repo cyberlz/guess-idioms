@@ -1,5 +1,4 @@
 # 悬灯隐谜(猜成语)
-
 ### 提示：
 - 使用方法
   - 输入成语回车
@@ -9,10 +8,10 @@
                
 - 可能存在部分问题,欢迎提[issues](https://github.com/CatNulls/guess-idioms/issues)
 - 灵感来自[传送门](https://github.com/0xVanfer/idioms-nsh) 
-- [游戏玩家统计](https://docs.qq.com/sheet/DU2dPUHNyVExkQW5X?tab=BB08J2&scode=) 
-- 版本: V0.1.2(2022/09/15)
-  - 更新成语库
-  - 移动端适配
+- 感谢贡献[推荐统计](https://docs.qq.com/sheet/DU2dPUHNyVExkQW5X?tab=BB08J2&scode=) 
+- 版本: V0.1.3(2022/09/16)
+  - 移除重复成语
+  - 同步推荐词库
 
 ### 待解决
 - [ ] 成语词库不够全    

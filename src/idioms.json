@@ -1,6 +1,48 @@
 {
   "data": [
     {
+      "ID": "不一其人",
+      "First": "bu",
+      "Second": "yi",
+      "Third": "qi",
+      "Fourth": "ren"
+    },
+    {
+      "ID": "匆匆忙忙",
+      "First": "cong",
+      "Second": "cong",
+      "Third": "mang",
+      "Fourth": "mang"
+    },
+    {
+      "ID": "不留余力",
+      "First": "bu",
+      "Second": "liu",
+      "Third": "yu",
+      "Fourth": "li"
+    },
+    {
+      "ID": "红红火火",
+      "First": "hong",
+      "Second": "hong",
+      "Third": "huo",
+      "Fourth": "huo"
+    },
+    {
+      "ID": "擦肩而过",
+      "First": "ca",
+      "Second": "jian",
+      "Third": "er",
+      "Fourth": "guo"
+    },
+    {
+      "ID": "惨不忍赌",
+      "First": "can",
+      "Second": "bu",
+      "Third": "ren",
+      "Fourth": "du"
+    },
+    {
       "ID": "疑惑不解",
       "First": "yi",
       "Second": "huo",
