@@ -3,8 +3,6 @@ import './App.css'
 import IdiomCard from './IdiomCard'
 import NshJson from './nsh.json'
 import { request } from './request'
-import IdiomJson from './idioms.json'
-
 export const ConfigContext = createContext('conf')
 
 function App() {
@@ -158,7 +156,7 @@ function App() {
                     <li>
                       <span>推荐词量: {NshJson.data.length}个</span>
                       {'   '}
-                      <span>默认词量: {IdiomJson.data.length}个</span>
+                      <span>默认词量: 30213个</span>
                     </li>
                   </ul>
                 </div>
@@ -188,20 +186,20 @@ function App() {
                   ] 完善
                 </div>
                 <div>
-                  4.{' '}
+                  4. 感谢
                   <a
                     href="https://docs.qq.com/sheet/DU2dPUHNyVExkQW5X?tab=BB08J2&scode="
                     target="_blank"
                     rel="noreferrer"
                   >
-                    游戏玩家统计
+                    推荐统计
                   </a>
                 </div>
                 <div>
-                  5. 版本: V0.1.2(2022/09/15)
+                  5. 版本: V0.1.3(2022/09/16)
                   <ul>
-                    <li>更新成语库</li>
-                    <li>移动端适配</li>
+                    <li>移除重复成语</li>
+                    <li>同步推荐词库</li>
                   </ul>
                 </div>
               </div>
