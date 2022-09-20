@@ -140,7 +140,7 @@ function App() {
                 查询结果
               </button>
               <div className="tip">
-                <div>提示：</div>
+                <div>提示：(当前仅支持成语查询)</div>
                 <div>
                   1.使用方法
                   <ul>
@@ -156,7 +156,7 @@ function App() {
                     <li>
                       <span>推荐词量: {NshJson.data.length}个</span>
                       {'   '}
-                      <span>默认词量: 30213个</span>
+                      <span>默认词量: 30895个</span>
                     </li>
                   </ul>
                 </div>
@@ -196,10 +196,9 @@ function App() {
                   </a>
                 </div>
                 <div>
-                  5. 版本: V0.1.3(2022/09/16)
+                  5. 版本: V0.1.4(2022/09/20)
                   <ul>
-                    <li>移除重复成语</li>
-                    <li>同步推荐词库</li>
+                    <li>采用新华字典成语库</li>
                   </ul>
                 </div>
               </div>

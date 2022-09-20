@@ -1,4 +1,5 @@
 # 悬灯隐谜(猜成语)
+### 目前只支持成语查询
 ### 提示：
 - 使用方法
   - 输入成语回车
@@ -9,11 +10,9 @@
 - 可能存在部分问题,欢迎提[issues](https://github.com/CatNulls/guess-idioms/issues)
 - 灵感来自[传送门](https://github.com/0xVanfer/idioms-nsh) 
 - 感谢贡献[推荐统计](https://docs.qq.com/sheet/DU2dPUHNyVExkQW5X?tab=BB08J2&scode=) 
-- 版本: V0.1.3(2022/09/16)
-  - 移除重复成语
-  - 同步推荐词库
+- 版本: V0.1.4(2022/09/20)
+  - 替换词库并增加自动格式处理(来源: [新华字典数据库](https://github.com/pwxcoo/chinese-xinhua))
 
-### 待解决
-- [ ] 成语词库不够全    
+### 待解决  
 - [ ] 查询处理全在前端
 - [ ] 按高频词汇顺序做推荐
