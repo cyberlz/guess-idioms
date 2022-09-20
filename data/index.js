@@ -31,8 +31,8 @@ const option = {
 const formatIdioms = () => {
   jsonFile.readFile(input, (err, data) => {
     if (err) throw err
-    // 格式化成语
-    const wordArr = data.map(item => {
+    // 格式化 四字成语
+    const wordArr = data.filter(o => o.word.length === 4).map(item => {
       const ret = pinyin(item.word, option);
       const word = {
         ID: item.word,
